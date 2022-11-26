@@ -1,0 +1,414 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+
+}
+
+nav{
+
+gap: 30px;
+
+
+
+
+
+
+}
+
+html, body{ 
+
+height: 100vh;
+font-family: "Source Sans Pro";
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing:antialiased;
+
+}
+
+
+
+body{
+
+    font-size: 1.6rem;
+
+}
+
+
+
+
+.pesquisa{
+
+
+width: 400px;
+
+
+
+}
+
+
+
+
+.botão-pesquisa{
+
+
+position: relative;left: 410px;bottom: 38px;
+
+
+
+}
+
+
+
+
+.form-inline{
+
+
+
+    position: relative;top:20px;left:100px ;
+
+
+
+}
+
+.capa {
+
+border: 2px solid black;
+height: 70rem;
+width: 98rem;
+max-width: 100%;
+background-image: url('Imagens/capa-1.png');
+
+}
+
+
+.col-4{
+
+    border: 0.2rem solid black;
+    height: 20rem;
+}
+
+
+
+
+
+.escritos{
+    text-align: center;
+    position: relative;top: 6rem;
+    font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+    border: 0.2rem solid black;
+height: 35rem;
+
+max-width: 550px;
+width: 100% ;
+background-color: rgb(243, 243, 243);
+position: relative;left: 440px;
+
+
+
+
+
+}
+
+
+.escritos h4{
+
+
+font-size: 19px;
+position: relative;top: 3rem;
+
+
+
+}
+
+
+
+.escritos h4,h1{
+
+
+position: relative;top: 60px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gosto-pessoal{
+
+position: relative;top: 100px;
+
+
+
+
+
+}
+
+
+.gosto1,.gosto2,.gosto3,.gosto4{
+
+
+border: 2px black solid;
+border-radius: 30px;
+padding: 13px;
+position: relative;top: 30px;
+
+
+
+}
+
+
+
+.gosto5{
+
+position: relative;top: 67px;right: 50px;
+align-items: center;
+
+
+}
+
+
+
+a:hover{
+
+
+
+background-color: rgba(218, 203, 203, 0.35);
+
+
+}
+
+
+
+
+.escritos h3{
+
+
+position: relative;top: 250px;left: 100px;
+
+border-radius: 30px;
+width: 350px;
+line-height: 40px;
+font-size: 22px;
+background-color: rgb(30, 147, 220);
+color: white;
+
+
+
+}
+
+
+
+.ver{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    cursor: pointer;
+    will-change: transform;
+    
+    
+    }
+
+
+
+
+    .ver:hover{
+
+
+background-color:transparent;
+
+
+
+
+    }
+
+    .gosto4{
+
+
+width: 60px;
+
+
+
+    }
+
+
+   
+    
+    
+    
+    @media(max-width:788px){
+
+
+        div .escritos{
+    
+            position: relative;right:102px;
+           
+            
+        
+        }
+        
+        
+        
+        
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    @media(max-width:500px){
+
+
+
+
+
+
+        div .escritos{
+
+    position: relative;left:0;
+   
+    width: 300px ;
+
+}
+
+
+span .gosto4{
+
+    position: relative;top: 57px;
+    font-size: 12px;
+   
+ 
+}
+span .gosto1{
+
+   
+   font-size: 12px;
+   
+ 
+}
+span .gosto2{
+
+    font-size: 12px;
+   
+ 
+}
+span .gosto3{
+
+    font-size: 12px;
+   
+ 
+}
+div .ver-1{
+
+    position: relative;right: 72px;bottom: 40px;
+    font-size: 17px;
+    border-width: 10px;
+
+   
+
+
+}
+
+
+h3 .ver{
+
+    
+    font-size: 15px;
+    border-color: black;
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:440px){
+
+
+    div .escritos{
+
+        position: relative;left:52px;
+       
+        width: 300px ;
+    
+    }
+    
+    
+    
+    
+        }
+
+@media(max-width:390px){
+
+
+    div .escritos{
+
+        position: relative;left:27px;
+       
+        width: 300px ;
+    
+    }
+    
+    
+    
+    
+        }
+@media(max-width:330px){
+
+
+    div .escritos{
+
+        position: relative;left:0px;
+       
+        width: 300px ;
+    
+    }
+    
+    
+    
+    
+        }
